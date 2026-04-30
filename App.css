@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --playfair-text: "Raleway", sans-serif;
+  --open-sans-text: "Open Sans", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+/* html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 52%;
+  }
+}
+
+@media (max-width: 420px) {
+  html {
+    font-size: 35%; 
+  }
+} */
+
+nav,
+body,
+footer {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.loader {
+  margin: 200px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  height: 200px;
+}
+
+.loader > img {
+  height: 100%;
+  width: 100%;
+}
+
+.slick-dots {
+  bottom: 30px !important;
+}
+
+.slick-dots li {
+  height: 8px;
+  width: 8px;
+}
+
+.slick-dots li button:before {
+  font-size: 8px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .slick-dots {
+    bottom: 12px !important;
+  }
+
+  .slick-arrow .slick-prev,
+  .slick-arrow .slick-next {
+    display: none;
+  }
+
+  .slick-arrow .slick-next {
+    display: none;
+  }
+
+  .loader {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
